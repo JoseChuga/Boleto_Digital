@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boleto Digital - Congreso Tecnológico 2025</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #0833A2;
+      text-align: center;
+      background: url("fondo.jpg") no-repeat center center fixed;
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      justify-content: center;
+      padding: 20px;
+    }
+    .container {
+
+      border-radius: 15px;
+      padding: 20px;
+      max-width: 500px;
+      margin: auto;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+    }
+    .logo-evento {
+      max-width: 200px;
+      margin: 10px auto;
+    }
+    h1 {
+      font-size: 1.6rem;
+      margin: 10px 0;
+    }
+    .nombre {
+      font-size: 1.4rem;
+      font-weight: bold;
+      margin: 20px 0 10px;
+      color: #0833A2;
+    }
+    .logo-patrocinador {
+      max-width: 180px;
+      margin: 10px auto 20px;
+ 
+      padding: 10px;
+      border-radius: 8px;
+    }
+    .texto {
+      font-size: 1rem;
+      margin-top: 15px;
+    }
+    @media (max-width: 600px) {
+      h1 { font-size: 1.3rem; }
+      .nombre { font-size: 1.1rem; }
+      .logo-evento { max-width: 150px; }
+      .logo-patrocinador { max-width: 140px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Logo del evento -->
+    <img src="logo_evento.png" alt="Logo Evento" class="logo-evento">
+
+    <!-- Nombre del evento -->
+    <h1>CONGRESO TECNOLÓGICO 2025<br>"IDENTÍFICATE"</h1>
+
+    <!-- Nombre de la persona acreditada -->
+    <div class="nombre">Autoriza a:</div>
+
+    <!-- Logo del patrocinador asociado a esa persona -->
+    <img src="patrocinador1.png" alt="Logo Patrocinador" class="logo-patrocinador">
+
+    <!-- Texto de acreditación -->
+    <p class="texto">Este boleto acredita a la persona para ingresar a nuestro evento.</p>
+  </div>
+</body>
+</html>
+```
